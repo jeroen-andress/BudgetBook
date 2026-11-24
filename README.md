@@ -23,12 +23,11 @@ Navigation über Tabs in der linken Seitenleiste (mit Icons):
 
 Details:
 
-* Buchungen erfassen, bearbeiten (Doppelklick), löschen (Entf) – mit Datum, Beschreibung, Betrag, Kategorie, Typ
+* Buchungen erfassen, bearbeiten (Doppelklick), löschen (Entf. Taste) – mit Datum, Beschreibung, Betrag, Kategorie, Typ
 * Tabelle mit Summe Einnahmen, Summe Ausgaben, Saldo (aktuelle Ansicht) und Gesamtsaldo (alle Buchungen)
 * Filter nach Monat, Kategorie und Art (Einnahmen/Ausgaben), dazu Suche in Beschreibung/Kategorie
 * Kategorien mit Buchungen sind vor dem Löschen geschützt
 * CSV-Export der aktuell gefilterten Buchungen (Excel-tauglich, `;`-getrennt)
-* Demodaten: `demo-daten.sql` (Januar – November 2026) lässt sich in SQLite einspielen, siehe Kommentar am Dateianfang
 * Fehlerbehandlung: ungültige Eingaben werden im Dialog erklärt, Datenbankfehler als Meldung angezeigt
 
 ## Architektur

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>Haushaltsbuch.Wpf</RootNamespace>
+    <AssemblyName>Haushaltsbuch</AssemblyName>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Haushaltsbuch.Core\Haushaltsbuch.Core.csproj" />
+    <ProjectReference Include="..\Haushaltsbuch.Infrastructure\Haushaltsbuch.Infrastructure.csproj" />
+    <ProjectReference Include="..\Haushaltsbuch.Presentation\Haushaltsbuch.Presentation.csproj" />
+  </ItemGroup>
+</Project>
